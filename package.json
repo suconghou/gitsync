@@ -1,0 +1,30 @@
+{
+	"name": "gitsy",
+	"version": "0.1.0",
+	"description": "use git hook sync your code",
+	"main": "index.js",
+	"dependencies": {},
+	"engines": {
+		"node": ">=8.0"
+	},
+	"bin": {
+		"gitsy": "./cli.js"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suconghou/gitsync.git"
+	},
+	"keywords": [
+		"git",
+		"sync"
+	],
+	"author": "suconghou",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/suconghou/gitsync/issues"
+	},
+	"homepage": "https://github.com/suconghou/gitsync#readme"
+}
